@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+	
+	  <title>profile-Page</title>
+    	<link rel="stylesheet" type="text/css" href="style.css"> 
+
+<body>
+	
+		<nav class="navbar">
+	<div class="container">
+		<a href="index.html" class="name">
+		
+			<h3 class="logo-heading">Blood Bank</h3>
+
+          <div class="bar">
+
+
+	 <ul class="rnav" style="margin-left: 10%;">
+            <li class="nav1">
+                <a class="nav" href="sentrequest.html">Sent Blood Request</a>
+            </li>
+            <li class="nav2">
+                <a class="nav" href="abs.html">Available blood samples</a>
+            </li>
+            <li class="nav4">
+                <a href="index.html">Logout</a>
+            </li>
+        </ul>
+
+
+      </div>
+    </div>
+</nav>
+		
+
+	<div class="rcont">
+		<div class="hp">
+			<div class="htab">
+					
+					<div class="hcontent">
+					   <form action="action/updateprofile.php" method="post">
+					   	<label >Hospital Name</label>
+						<input  type="text" name="hname" value="<>" class="i1" >
+						<label >Hospital Email</label>
+						<input type="email" name="hemail" value="<>" class="i1">
+						<label >Hospital Password</label>
+						<input type="text" name="hpassword" value="<>" class="i1">
+						<label >Hospital Phone Number</label>
+						<input type="text" name="hphone" value="<>" class="i1">
+						<label >Hospital City</label>
+						<input type="text" name="hcity" value="<>" class="i1">
+						<input class="i2" type="submit" name="update"  value="Update">
+					   </form>
+					</div>
+					<a  href="index.html" >Cancel</a><br>
+				</div>
+			</div>
+
+		
+		</div>
+
+
+	<footer> 
+		<div><h3>PROJECT - BLOOD BANK</h3></div>
+    		<div><h3>Contect no: <B style="color: blue;">+923165153627</B></h3></div>
+    		<div><h3>Email ID: <b style="color: blue;">bloodbank@gmail.com</b></h3></div>
+	
+	</footer>
+
+
+
+</body>
+</html>
